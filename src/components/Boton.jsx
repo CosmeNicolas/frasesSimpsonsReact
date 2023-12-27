@@ -5,7 +5,7 @@ Button
 const Boton = () => {
   return (
     <>
-      <Button variant="warning">Obtener Frase</Button>
+      <Button className="mt-3" variant="warning">Obtener Frase</Button>
     </>
   );
 };
