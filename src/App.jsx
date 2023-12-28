@@ -38,7 +38,7 @@ function App() {
      <img className="img-fluid" src={theSimpsonsTitulo} alt="" />
      <Frase frasePersonajeProps={frasePersonaje}/>
      <Button className="btn btn-warning mt-3"
-      onClick={consultarAPI}>Obtener PErsonaje</Button>
+      onClick={consultarAPI}>Obtener Personaje</Button>
     </Container>
     <Footer/>
     </>
