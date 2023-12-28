@@ -2,16 +2,16 @@ import React from 'react';
 import homero from "../img/homero.png"
 import { Card } from 'react-bootstrap';
 
-const Frase = () => {
+const Frase = ({frasePersonajeProps}) => {
   return (
     <>
-    <div className='border border-danger'>
-      <h1 className='text-center text-light'>Homero</h1>
+    <div>
+      <h1 className='text-center '>{frasePersonajeProps.character}</h1>
       <hr  className='mx-5'/>
-      <img className='img-fluid' src={homero} alt=""/>
+      <img className='img-fluid' src={frasePersonajeProps.image} alt=""/>
       <Card>
          <Card.Text>
-          Aqui se colocara la frase simpsons de cada personaje 
+          {frasePersonajeProps.quote}
         </Card.Text>
       </Card>
     </div>
