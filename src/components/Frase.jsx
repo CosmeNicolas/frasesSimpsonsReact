@@ -1,5 +1,4 @@
 import React from 'react';
-import homero from "../img/homero.png"
 import { Card } from 'react-bootstrap';
 
 const Frase = ({frasePersonajeProps}) => {
