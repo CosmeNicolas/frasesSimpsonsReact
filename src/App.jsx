@@ -4,12 +4,10 @@ import theSimpsonsTitulo from "./img/logosimpson.png"
 
 import Frase from "./components/Frase"
 import Footer from './components/Footer'
-
 import './App.css'
 import { useEffect, useState } from "react"
 
 function App() {
-
   const [frasePersonaje, setFrasePersonaje] = useState({});
   //solicitu en momento de montaje 
   useEffect(() => {
