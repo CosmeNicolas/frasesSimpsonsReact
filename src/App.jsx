@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Button, Container } from "react-bootstrap"
 import theSimpsonsTitulo from "./img/logosimpson.png"
-
 import Frase from "./components/Frase"
 import Footer from './components/Footer'
 import './App.css'
